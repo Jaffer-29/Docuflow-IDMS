@@ -214,7 +214,7 @@ IDMS
 
 ## Home Screen
 
-![Home Screen](docs/screenshots/home.png)
+![Main Frame](https://raw.githubusercontent.com/Jaffer-29/Docuflow-IDMS/61366af1660c36ddeddf2858278a8021f0d734f9/docs/Screenshorts/Main%20Frame.png)
 
 
 ## Compression Module
