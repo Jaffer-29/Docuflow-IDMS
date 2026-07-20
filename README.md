@@ -191,8 +191,7 @@ IDMS
 
 ## Class Diagram
 
-![Class Diagram](docs/uml/class-diagram.png)
-
+![Class Diagram](https://raw.githubusercontent.com/Jaffer-29/Docuflow-IDMS/f452df859de28ec4eacf9ea1e8ad9ebf73313be2/docs/UML%20Images/Class%20Diagram.png)
 
 ## System Architecture
 
