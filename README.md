@@ -219,12 +219,12 @@ IDMS
 
 ## Compression Module
 
-![Compression Module](docs/screenshots/compression.png)
+![Compression File](https://raw.githubusercontent.com/Jaffer-29/Docuflow-IDMS/15cc4196f8e498d74a06c7161dde8db61576cab8/docs/Screenshorts/Compression%20File.png)
 
 
 ## PDF Reader Module
 
-![PDF Reader](docs/screenshots/reader.png)
+![Reader Frame](https://raw.githubusercontent.com/Jaffer-29/Docuflow-IDMS/15cc4196f8e498d74a06c7161dde8db61576cab8/docs/Screenshorts/Reader%20Frame.png)
 
 ---
 
