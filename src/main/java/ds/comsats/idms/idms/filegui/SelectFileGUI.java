@@ -106,8 +106,9 @@ public class SelectFileGUI {
         Button compress = new Button("Compress File", compressIcon);
         Button decompress = new Button("Decompress File", decompressIcon);
         Button save = new Button("Save File", saveIcon);
+        Button reset = new Button("Reset");
 
-        Button[] buttons = {compress, decompress, save};
+        Button[] buttons = {compress, decompress, save, reset};
 
         String normalStyle =
                 "-fx-background-color:linear-gradient(to right,#1E293B,#0F172A);" +
@@ -139,7 +140,7 @@ public class SelectFileGUI {
 
         save.setDisable(true);
 
-        VBox buttonBox = new VBox(20, compress, decompress, save);
+        VBox buttonBox = new VBox(20, compress, decompress, save, reset);
         buttonBox.setAlignment(Pos.CENTER);
 
         StackPane fileArea = new StackPane();
@@ -287,6 +288,23 @@ public class SelectFileGUI {
                     }
                 }
             }
+        });
+
+        reset.setOnAction(e -> {
+            selectedFile = null;
+            processedFile = null;
+
+            title.setText("Drop File Here\n\n\t   or\n\nClick to Browse");
+            title.setFill(Color.web("#38BDF8"));
+
+            info.setText("No File Selected Yet");
+            info.setTextFill(Color.web("#E2E8F0"));
+
+            box.setFill(Color.rgb(56, 189, 248, 0.12));
+            box.setStroke(Color.web("#38BDF8"));
+            shadow.setColor(Color.rgb(56, 189, 248, 0.45));
+
+            save.setDisable(true);
         });
 
         BorderPane root = new BorderPane();
