@@ -221,7 +221,7 @@ public class SelectFileGUI {
             if (selectedFile != null) {
 
                 try {
-                    File tempFile = File.createTempFile("compressed_", ".huff");
+                    File tempFile = File.createTempFile("compressed_", ".txt");
                     HuffmanCompressor.compress(selectedFile.getAbsolutePath(), tempFile.getAbsolutePath());
 
                     processedFile = tempFile;
