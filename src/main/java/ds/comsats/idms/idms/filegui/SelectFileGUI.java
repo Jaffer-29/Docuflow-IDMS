@@ -244,7 +244,7 @@ public class SelectFileGUI {
         decompress.setOnAction(e -> {
             if (selectedFile != null) {
                 try {
-                    File tempFile = File.createTempFile("decompressed_", ".decoded");
+                    File tempFile = File.createTempFile("decompressed_", ".txt");
 
                     HuffmanCompressor.decompress(
                             selectedFile.getAbsolutePath(),

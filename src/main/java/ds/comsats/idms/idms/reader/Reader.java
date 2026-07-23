@@ -17,6 +17,8 @@ import org.apache.pdfbox.Loader;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.PDFRenderer;
 import org.apache.pdfbox.text.PDFTextStripper;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -191,6 +193,7 @@ public class Reader {
                     PDFTextStripper reader = new PDFTextStripper();
                     reader.setSortByPosition(true);
                     text.setText(reader.getText(document[0]));
+                    Logger.getLogger("org.apache.pdfbox").setLevel(Level.SEVERE);
                     fileNameField.setText(file.getName());
 
                 }catch(IOException ex){
@@ -203,6 +206,8 @@ public class Reader {
             if(radio2.isSelected()){
                 imageView.setVisible(false);
                 text.setVisible(true);
+                previousButton.setVisible(false);
+                nextButton.setVisible(false);
             }
         });
 
@@ -210,6 +215,8 @@ public class Reader {
             if(radio1.isSelected()){
                 text.setVisible(false);
                 imageView.setVisible(true);
+                previousButton.setVisible(true);
+                nextButton.setVisible(true);
             }
         });
 
