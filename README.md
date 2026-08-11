@@ -195,18 +195,15 @@ IDMS
 
 ## System Architecture
 
-![Architecture Diagram](docs/uml/architecture-diagram.png)
-
+![Architecture Diagram](https://github.com/Jaffer-29/Docuflow-IDMS/blob/02125976bc57841046f0f7a3aa97e55a255359ce/docs/UML%20Images/Architecture%20Diagram.png)
 
 ## Compression Workflow
 
-![Compression Sequence](docs/uml/compression-sequence-diagram.png)
-
+![Architecture Diagram](https://github.com/Jaffer-29/Docuflow-IDMS/blob/02125976bc57841046f0f7a3aa97e55a255359ce/docs/UML%20Images/Architecture%20Diagram.png)
 
 ## PDF Reader Workflow
 
-![Reader Sequence](docs/uml/reader-sequence-diagram.png)
-
+> View this workflow in the **UML Section**.
 ---
 
 # Application Screenshots
@@ -216,9 +213,9 @@ IDMS
 ![Main Frame](https://raw.githubusercontent.com/Jaffer-29/Docuflow-IDMS/61366af1660c36ddeddf2858278a8021f0d734f9/docs/Screenshorts/Main%20Frame.png)
 
 
-## Compression Module
+## Compression Frame
 
-![Compression File](https://raw.githubusercontent.com/Jaffer-29/Docuflow-IDMS/15cc4196f8e498d74a06c7161dde8db61576cab8/docs/Screenshorts/Compression%20File.png)
+![Compression Frame](https://github.com/Jaffer-29/Docuflow-IDMS/blob/02125976bc57841046f0f7a3aa97e55a255359ce/docs/Screenshorts/Compression%20Frame.jpeg)
 
 
 ## PDF Reader Module
